@@ -1,8 +1,8 @@
-#AssemblyScript Loader Advanced Examples
+# AssemblyScript Loader Advanced Examples
 
 Here are some advanced examples covering array of numbers and array of strings which are not available in the [official documentation](https://www.assemblyscript.org/loader.html#installation).
 
-####1.) Array of numbers as the argument, array of numbers as the return value
+#### 1.) Array of numbers as the argument, array of numbers as the return value
 
 ```ts
 // AssemblyScript
@@ -28,7 +28,7 @@ console.log(doSqrt([1, 4, 9, 16, 25, 36]))
 // [1, 2, 3, 4, 5, 6]
 ```
 
-####2.) Array of strings as the argument, array of strings as the return value
+#### 2.) Array of strings as the argument, array of strings as the return value
 
 ```ts
 // AssemblyScript
