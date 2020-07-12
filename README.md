@@ -47,8 +47,8 @@ function doReverseArray(values) {
 
   const outArrPtr = reverseArray(arrPtr)
 
-  strPtr.forEach(__release)
   __release(arrPtr)
+  // No need to do strPtr.forEach(__release) here.
 
   const outStrPtr = __getArray(outArrPtr)
   const output = outStrPtr.map(__getString)
